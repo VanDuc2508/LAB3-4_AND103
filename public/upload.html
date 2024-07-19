@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload ảnh</title>
+</head>
+<body>
+  <h1>Upload ảnh</h1>
+  <form action="/mobiles" method="post" enctype="multipart/form-data">
+    <input type="text" name="name" placeholder="Tên di động" required>
+    <input type="number" name="born" placeholder="Năm sản xuất" required>
+    <input type="text" name="brand" placeholder="Thương hiệu" required>
+    <input type="number" name="price" placeholder="Giá" required>
+    <input type="file" name="image" accept="image/*" required>
+    <button type="submit">Tải lên</button>
+  </form>
+</body>
+</html>
